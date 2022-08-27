@@ -21,4 +21,4 @@ $TODO -d $ARTICLE_CFG do "$task_num" > /dev/null
 # Display the selected article in the output
 echo "Today's article is: $article_title"
 
-#/opt/homebrew/bin/mutt -F /Users/jamietr/.mutt/.muttrc -s "Today's article is $article_title" jamietoddrubin@gmail.com </dev/null
+#/opt/homebrew/bin/mutt -F /Users/jamietr/.mutt/.muttrc -s "Today's article is $article_title" <email> </dev/null
